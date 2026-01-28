@@ -37,9 +37,9 @@ We utilized a computational approach to analyze the routine across three dimensi
 
 In Base 10, we observed a distinct "Expansion Property." The 4-digit constant 6174 serves as a seed for higher-order constants. Inserting the pair  into the center of the constant generates valid fixed points for larger even-numbered digit lengths:
 
-* : 
-* : 
-* : 
+* n = 4: 6174
+* n = 8: 63317664
+* n = 12: 633331766664 
 
 However, this stability is not universal. In Base 5, constants appear at  and  (e.g., ) but fail to emerge for . This confirms **Ludington's Bound** [2], proving that for any fixed base , the set of Kaprekar constants is finite. The "vector curve" of constants eventually crashes into chaos (loops) as combinatorial entropy () overwhelms the ordering function.
 
@@ -51,7 +51,7 @@ Mapping the stopping times reveals that the convergence to 6174 is not random. T
 
 Contrast with radioactive decay yielded the most significant finding. Unlike Carbon-14 decay, which is monotonic, Kaprekar’s routine is **non-monotonic**.
 
-* *Trace:* 
+* *Trace:* 1000 -> 0999 -> 8991 -> ... -> 6174
 * *Observation:* The system drastically increases its value (energy) in Step 2 to escape the "trap" of low-value numbers.
 
 ### 5. Discussion and Conclusion
